@@ -1,0 +1,40 @@
+{
+  "name": "savvycss",
+  "version": "0.0.0",
+  "description": "A Lightweight & Highly-Composable Modular CSS Framework",
+  "style": "index.css",
+  "files": [
+    "index.css"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:BrianSipple/savvy-css.git",
+  "author": "Brian Sipple <brsipple42@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "del build/**",
+    "setup": "yarn install && mkdir -p build",
+    "transform": "postcss -c postcss.config.js",
+    "transform:watch": "postcss -c postcss.config.js -w",
+    "build:dist": "yarn run clean && yarn run setup && yarn run transform",
+    "prepublish": "nsp check",
+    "release": "np"
+  },
+  "devDependencies": {
+    "del-cli": "^0.2.1",
+    "np": "^2.14.1",
+    "nsp": "^2.6.3",
+    "postcss-cli": "^3.2.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-import": "^9.1.0",
+    "postcss-reporter": "^3.0.0"
+  },
+  "keywords": [
+    "css",
+    "css framework",
+    "composable css",
+    "functional css",
+    "modular css",
+    "responsive css",
+    "lightweight css"
+  ]
+}
