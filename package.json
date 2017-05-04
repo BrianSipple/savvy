@@ -2,12 +2,13 @@
   "name": "savvycss",
   "version": "0.0.0",
   "description": "A Lightweight & Highly-Composable Modular CSS Framework",
-  "style": "index.css",
+  "main": "build/index.css",
+  "style": "build/index.css",
   "files": [
+    "build/index.css",
     "index.css"
   ],
-  "main": "index.js",
-  "repository": "git@github.com:BrianSipple/savvy-css.git",
+  "repository": "git@github.com:BrianSipple/savvy.git",
   "author": "Brian Sipple <brsipple42@gmail.com>",
   "license": "MIT",
   "scripts": {
