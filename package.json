@@ -13,7 +13,7 @@
   "scripts": {
     "clean": "del build/**",
     "setup": "yarn install && mkdir -p build",
-    "transform": "postcss index.css -o build/savvy.min.css -c postcss.config.js",
+    "transform": "postcss index.css -o build/savvy.css -c postcss.config.js",
     "transform:watch": "yarn run transform -w",
     "build:dist": "yarn run clean && yarn run setup && yarn run transform",
     "prepublish": "nsp check",
