@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/savvy
+    environment:
+      - CI: true
+    docker:
+      - image: kkarczmarczyk/node-yarn:6.9
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: yarn
+      - run:
+          name: Running Tests
+          command: yarn test
+
