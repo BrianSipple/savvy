@@ -1,0 +1,40 @@
+{
+  // Use IntelliSense to learn about possible Node.js debug attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Transform | Development",
+      "program": "${workspaceRoot}/node_modules/postcss-cli/bin/postcss",
+      "args": [
+        "index.css",
+        "-o",
+        "build/savvy.css",
+        "-c",
+        "postcss.config.js"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Transform | Production",
+      "program": "${workspaceRoot}/node_modules/postcss-cli/bin/postcss",
+      "args": [
+        "index.css",
+        "-o",
+        "build/savvy.css",
+        "-c",
+        "postcss.config.js"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

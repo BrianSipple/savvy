@@ -2,30 +2,35 @@
   "name": "@savvy-css/savvy",
   "version": "0.0.0",
   "description": "A Lightweight & Highly-Composable Modular CSS Framework",
-  "main": "index.css",  
-  "style": "index.css",
+  "main": "build/index.css",
+  "style": "build/index.css",
   "files": [
-    "index.css"
+    "build/*"
   ],
   "repository": "git@github.com:savvy-css/savvy.git",
   "author": "Brian Sipple <brsipple42@gmail.com>",
   "license": "MIT",
   "scripts": {
     "clean": "del build/**",
-    "setup": "yarn install && mkdir -p build",
-    "transform": "postcss index.css -o build/savvy.css -c postcss.config.js",
-    "transform:watch": "yarn run transform -w",
-    "build:dist": "yarn run clean && yarn run setup && yarn run transform",
-    "prepublish": "nsp check",
-    "release": "np"
+    "setup": "mkdir -p build",
+    "transform": "postcss index.css -o build/savvy.css --config postcss.config.js",
+    "transform:minify": "NODE_ENV=production postcss index.css -o build/savvy.css --config postcss.config.js",
+    "transform:watch": "postcss index.css -o build/savvy.css --config postcss.config.js -w",
+    "build": "npm run clean && npm run setup && npm run transform",
+    "build:dist": "npm run clean && npm run setup && npm run transform:minify",
+    "prepublish": "nsp check && npm run clean && npm run setup && npm run build:dist",
+    "deploy": "np"
   },
   "devDependencies": {
-    "del-cli": "^0.2.1",
-    "np": "^2.14.1",
+    "@savvy-css/base-settings": "^0.0.3",
+    "@savvy-css/utilities": "^0.0.4",
+    "cssnano": "^3.10.0",
+    "del-cli": "^1.0.0",
+    "np": "^2.15.0",
     "nsp": "^2.6.3",
-    "postcss-cli": "^3.2.0",
+    "postcss-cli": "^4.0.0",
     "postcss-cssnext": "^2.10.0",
-    "postcss-import": "^9.1.0",
+    "postcss-import": "^10.0.0",
     "postcss-reporter": "^3.0.0"
   },
   "keywords": [
