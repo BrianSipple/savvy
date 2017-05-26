@@ -2,8 +2,8 @@
   "name": "@savvy-css/savvy",
   "version": "0.0.0",
   "description": "A Lightweight & Highly-Composable Modular CSS Framework",
-  "main": "build/index.css",
-  "style": "build/index.css",
+  "main": "build/savvy.css",
+  "style": "build/savvy.css",
   "files": [
     "build/*"
   ],
