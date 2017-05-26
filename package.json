@@ -1,6 +1,6 @@
 {
   "name": "@savvy-css/savvy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Lightweight & Highly-Composable Modular CSS Framework",
   "main": "build/savvy.css",
   "style": "build/savvy.css",
