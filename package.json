@@ -22,8 +22,11 @@
     "deploy": "np"
   },
   "devDependencies": {
-    "@savvy-css/base-settings": "^0.0.3",
-    "@savvy-css/utilities": "^0.0.4",
+    "@savvy-css/base-settings": "^0.0.5",
+    "@savvy-css/garnishes": "^0.0.1",
+    "@savvy-css/normalize": "^0.0.0",
+    "@savvy-css/object-patterns": "^0.0.0",
+    "@savvy-css/utilities": "^0.0.5",
     "cssnano": "^3.10.0",
     "del-cli": "^1.0.0",
     "np": "^2.15.0",

@@ -2,13 +2,25 @@
 # yarn lockfile v1
 
 
-"@savvy-css/base-settings@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@savvy-css/base-settings/-/base-settings-0.0.3.tgz#acffdee6635abd9ff81b250e7cc6eae3014055e5"
+"@savvy-css/base-settings@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@savvy-css/base-settings/-/base-settings-0.0.5.tgz#edc40579f942714c26b0e34c122fc646c4da0d58"
 
-"@savvy-css/utilities@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@savvy-css/utilities/-/utilities-0.0.4.tgz#eca0471b932561c7dbc1de50342e7663d946dee1"
+"@savvy-css/garnishes@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/garnishes/-/garnishes-0.0.1.tgz#5129a197f2810788ff712374c71a16268086ebd1"
+
+"@savvy-css/normalize@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@savvy-css/normalize/-/normalize-0.0.0.tgz#5f78b19535cf6025fd2190baf45e5b94d8c4b22a"
+
+"@savvy-css/object-patterns@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@savvy-css/object-patterns/-/object-patterns-0.0.0.tgz#3a99bb0bcfda24b3f7913f9489e3b769a49014a5"
+
+"@savvy-css/utilities@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@savvy-css/utilities/-/utilities-0.0.5.tgz#1a6e956a2cc9eed4cf1dbad2f058312cd9fd547a"
 
 abbrev@1:
   version "1.1.0"

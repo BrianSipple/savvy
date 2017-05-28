@@ -11,7 +11,7 @@ _A Lightweight & Highly-Composable Modular CSS Framework_.
 ## Installation
 
 ```shell
-yarn add --dev savvycss
+yarn add --dev @savvy-css/savvy
 ```
 
 ## Getting Started
@@ -22,19 +22,18 @@ This project includes _all_ of the modules that comprise Savvy CSS. You can inst
 For more modular usage, you can also install [individual packages]().
 
 ```shell
-yarn add --dev savvycss-utils savvycss-garnishes
+yarn add --dev @savvy-css/utilities @savvy-css/garnishes
 ```
 
 
-## 
+## Usage
 
 
 
-
-[npm-badge]: https://img.shields.io/npm/v/savvycss.svg
-[npm-badge-url]: https://www.npmjs.com/package/savvycss
-[download-count-badge]: https://img.shields.io/npm/dt/savvycss.svg
-[license-badge]: https://img.shields.io/npm/l/savvycss.svg
+[npm-badge]: https://img.shields.io/npm/v/@savvy-css/savvy.svg
+[npm-badge-url]: https://www.npmjs.com/package/@savvy-css/savvy
+[download-count-badge]: https://img.shields.io/npm/dt/@savvy-css/savvy.svg
+[license-badge]: https://img.shields.io/npm/l/@savvy-css/savvy.svg
 [license-badge-url]: ./LICENSE
 [dependencies-badge]: https://img.shields.io/david/savvy-css/savvy.svg
 [dependencies-badge-url]: https://david-dm.org/savvy-css/savvy
