@@ -35,6 +35,32 @@
       "env": {
         "NODE_ENV": "production"
       }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Transform | Tests | Watch",
+      "program": "${workspaceRoot}/node_modules/postcss-cli/bin/postcss",
+      "args": [
+        "test/index-test.css",
+        "-u",
+        "postcss-import",
+        "-u",
+        "postcss-cssnext",
+        "-o",
+        "build/test.css",
+        "-w"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Test Page",
+      "program": "${workspaceRoot}/node_modules/live-server/live-server.js",
+      "args": [
+        "--port=9823",
+        "--open=test/"
+      ]
     }
   ]
 }
