@@ -8,13 +8,15 @@
 
 _A Lightweight & Highly-Composable Modular CSS Framework_.
 
-## Installation
+## Usage 
+
+### Installation
 
 ```shell
 yarn add --dev @savvy-css/savvy
 ```
 
-## Getting Started
+### Getting Started
 
 This project includes _all_ of the modules that comprise Savvy CSS. You can install it using the command above.
 (Our examples use [`yarn`](https://yarnpkg.com), but `npm` will also do.)
@@ -25,8 +27,33 @@ For more modular usage, you can also install [individual packages]().
 yarn add --dev @savvy-css/utilities @savvy-css/garnishes
 ```
 
+## Design Goals
 
-## Usage
+The _Savvy_ approach to CSS favors:
+
+- Responsive design: Lightweight styles that assume small-screen (i.e.: mobile) interfaces as their default.
+
+- Expressivity: Classes that communicate visual styling.
+
+- Reusability & Maintenance: A common (i.e.: composition-based) approach for styling basic _and_ more sophisticated components.
+
+- Utility: Focused classes that keep CSS [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+
+- Learnability: Designing systems that are easy for developers and designers to learn and use.
+
+- Performance: Delivering a super-small amount of CSS to devices, browsers, and users.
+
+- Adherence to the [principles of motion design. (More on this coming soon!)
+
+Check out the[documentation folder](./docs) for more details.
+
+## Benefits
+
+- Smaller, Simpler, DRY CSS... which stays that way thanks to its composability
+- Easier layout refactoring and experimentation
+- Designed for scalability
+- Designed for portability (contribute to the project directly... or fork it as the starting point for your own)
+- Clean foundational defaults for HTML elements
 
 
 
