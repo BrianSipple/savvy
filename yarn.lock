@@ -10,6 +10,10 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@savvy-css/garnishes/-/garnishes-0.0.1.tgz#5129a197f2810788ff712374c71a16268086ebd1"
 
+"@savvy-css/grid-object-patterns@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@savvy-css/grid-object-patterns/-/grid-object-patterns-0.1.0.tgz#971f72bbcb40e450c39cbd00e582633b2d774f17"
+
 "@savvy-css/normalize@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@savvy-css/normalize/-/normalize-0.1.0.tgz#e2cef2aa25c567d662d10bc077479d81b50e7b44"

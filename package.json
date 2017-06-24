@@ -51,5 +51,8 @@
     "modular css",
     "responsive css",
     "lightweight css"
-  ]
+  ],
+  "dependencies": {
+    "@savvy-css/grid-object-patterns": "^0.1.0"
+  }
 }
