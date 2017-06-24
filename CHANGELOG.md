@@ -1,3 +1,8 @@
+# 0.0.3 &mdash; June 24, 2017
+
+- **[ENHANCEMENT]** Upgrade to `@savvy-css/normalize` @ `^0.1.0`.
+
+
 # 0.0.2 &mdash; May 28, 2017
 
 - **[ENHANCEMENT]** Upgrade to `@savvy-css/base-settings` @ `^0.0.5`.
