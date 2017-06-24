@@ -10,9 +10,9 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@savvy-css/garnishes/-/garnishes-0.0.1.tgz#5129a197f2810788ff712374c71a16268086ebd1"
 
-"@savvy-css/normalize@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@savvy-css/normalize/-/normalize-0.0.0.tgz#5f78b19535cf6025fd2190baf45e5b94d8c4b22a"
+"@savvy-css/normalize@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@savvy-css/normalize/-/normalize-0.1.0.tgz#e2cef2aa25c567d662d10bc077479d81b50e7b44"
 
 "@savvy-css/object-patterns@^0.0.0":
   version "0.0.0"
@@ -631,21 +631,15 @@ date-fns@^1.27.2:
   version "1.28.4"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.28.4.tgz#7938aec34ba31fc8bd134d2344bc2e0bbfd95165"
 
-debug@2, debug@^2.1.3, debug@^2.2.0:
-  version "2.6.6"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.6.tgz#a9fa6fbe9ca43cf1e79f73b75c0189cbb7d6db5a"
+debug@2, debug@2.6.8, debug@^2.1.3, debug@^2.2.0:
+  version "2.6.8"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
-    ms "0.7.3"
+    ms "2.0.0"
 
 debug@2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.7.tgz#92bad1f6d05bbb6bba22cca88bcd0ec894c2861e"
-  dependencies:
-    ms "2.0.0"
-
-debug@2.6.8:
-  version "2.6.8"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
     ms "2.0.0"
 
@@ -1749,10 +1743,6 @@ morgan@^1.6.1:
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
-
-ms@0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.3.tgz#708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
 
 ms@2.0.0:
   version "2.0.0"

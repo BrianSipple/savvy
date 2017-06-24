@@ -29,7 +29,7 @@
   "devDependencies": {
     "@savvy-css/base-settings": "^0.0.5",
     "@savvy-css/garnishes": "^0.0.1",
-    "@savvy-css/normalize": "^0.0.0",
+    "@savvy-css/normalize": "^0.1.0",
     "@savvy-css/object-patterns": "^0.0.0",
     "@savvy-css/stylelint-config-savvy": "^0.1.0",
     "@savvy-css/utilities": "^0.0.5",
