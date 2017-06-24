@@ -21,7 +21,7 @@ yarn add --dev @savvy-css/savvy
 This project includes _all_ of the modules that comprise Savvy CSS. You can install it using the command above.
 (Our examples use [`yarn`](https://yarnpkg.com), but `npm` will also do.)
 
-For more modular usage, you can also install [individual packages]().
+For more modular usage, you can also install [individual packages](https://www.npmjs.com/org/savvy-css).
 
 ```shell
 yarn add --dev @savvy-css/utilities @savvy-css/garnishes
@@ -31,13 +31,16 @@ yarn add --dev @savvy-css/utilities @savvy-css/garnishes
 
 The _Savvy_ approach to CSS favors:
 
-- Responsive design: Lightweight styles that assume small-screen (i.e.: mobile) interfaces as their default.
-
 - Expressivity: Classes that communicate visual styling.
 
-- Reusability & Maintenance: A common (i.e.: composition-based) approach for styling basic _and_ more sophisticated components.
+- Separation of Concerns: Clearly defined ["namespace" prefixes](./doc/architecture/namespaces.md) to indicate the kind of effect a class 
+is trying to have.
 
 - Utility: Focused classes that keep CSS [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+
+- Reusability & Maintenance: A common (i.e.: composition-based) approach for styling basic _and_ more-sophisticated components.
+
+- Responsive design: Lightweight styles that assume small-screen (i.e.: mobile) interfaces as their default.
 
 - Learnability: Designing systems that are easy for developers and designers to learn and use.
 
@@ -45,7 +48,7 @@ The _Savvy_ approach to CSS favors:
 
 - Adherence to the [principles of motion design. (More on this coming soon!)
 
-Check out the[documentation folder](./docs) for more details.
+Check out the[documentation folder](./doc) for more details.
 
 ## Benefits
 
