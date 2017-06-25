@@ -1,3 +1,11 @@
+# 0.0.5 &mdash; June 24, 2017
+
+- **[FEATURE]** Offer different build variations
+  - `build/savvy.css`: CSS bundled from modules imported in `index.css`.
+  - `build/savvy-variablized.css`: CSS bundled from modules imported in `index.css` &mdash; with variables preserved.
+  - `build/savvy.min.css`: CSS bundled from modules imported in `index.css` and then minified.
+  - `build/savvy-variablized.min.css`: CSS bundled from modules imported in `index.css` and then minified &mdash; with variables preserved.
+
 # 0.0.4 &mdash; June 24, 2017
 
 - **[ENHANCEMENT]** Upgrade to `@savvy-css/grid-object-patterns` @ `^0.1.0`.
