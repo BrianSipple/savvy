@@ -15,15 +15,12 @@
         "build/savvy.css",
         "-c",
         "postcss.config.js"
-      ],
-      "env": {
-        "NODE_ENV": "development"
-      }
+      ]
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Transform | Production",
+      "name": "Transform | Minify ",
       "program": "${workspaceRoot}/node_modules/postcss-cli/bin/postcss",
       "args": [
         "index.css",
@@ -33,7 +30,24 @@
         "postcss.config.js"
       ],
       "env": {
-        "NODE_ENV": "production"
+        "MINIFY": "true"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Transform | Minify | Variables",
+      "program": "${workspaceRoot}/node_modules/postcss-cli/bin/postcss",
+      "args": [
+        "index.css",
+        "-o",
+        "build/savvy.css",
+        "-c",
+        "postcss.config.js"
+      ],
+      "env": {
+        "MINIFY": "true",
+        "VARIABLES": "true"
       }
     },
     {
@@ -61,6 +75,7 @@
         "--port=9823",
         "--open=test/"
       ]
-    }
+    },
+
   ]
 }
