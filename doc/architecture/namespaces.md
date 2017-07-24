@@ -27,3 +27,18 @@ implemented in Savvy:
   - Similar to utilities, but focused on outer- or "skin"-level
   styles as opposed to structural/layout styles. Examples include
   colors and font settings.
+
+
+## Local App Namespaces
+
+The following namespaces aren't provided by SavvyCSS directly, but we've found
+them to be useful alongside the framework for the specific structure of our own
+applications:
+
+- `c`: Components
+  - See our guide on [Extending Savvy Locally](https://github.com/savvy-css/savvy/doc/guides/extending-locally.md) for more.
+
+- `p`: Pages
+  - Styling concerns that are specific to a particular "page" of the applications. Ideally,
+  these should only be needed if a style rule doesn't fit the concern of a specific component
+  class or Savvy class.
