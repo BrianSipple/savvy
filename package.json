@@ -10,6 +10,15 @@
   "repository": "git@github.com:savvy-css/savvy.git",
   "author": "Brian Sipple <brsipple42@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "css",
+    "css framework",
+    "composable css",
+    "functional css",
+    "modular css",
+    "responsive css",
+    "lightweight css"
+  ],
   "scripts": {
     "clean": "del build/**",
     "setup": "mkdir -p build",
@@ -29,10 +38,10 @@
     "deploy": "np"
   },
   "devDependencies": {
-    "@savvy-css/base-settings": "^0.0.5",
-    "@savvy-css/garnishes": "^0.0.1",
-    "@savvy-css/normalize": "^0.1.0",
-    "@savvy-css/object-patterns": "^0.0.0",
+    "@savvy-css/base-settings": "^0.1.1",
+    "@savvy-css/garnishes": "^0.1.0",
+    "@savvy-css/normalize": "^0.2.0",
+    "@savvy-css/object-patterns": "^0.1.1",
     "@savvy-css/stylelint-config-savvy": "^0.1.0",
     "@savvy-css/utilities": "^0.0.5",
     "cssnano": "^3.10.0",
@@ -44,17 +53,5 @@
     "postcss-cssnext": "^2.10.0",
     "postcss-import": "^10.0.0",
     "postcss-reporter": "^3.0.0"
-  },
-  "keywords": [
-    "css",
-    "css framework",
-    "composable css",
-    "functional css",
-    "modular css",
-    "responsive css",
-    "lightweight css"
-  ],
-  "dependencies": {
-    "@savvy-css/grid-object-patterns": "^0.1.0"
   }
 }
